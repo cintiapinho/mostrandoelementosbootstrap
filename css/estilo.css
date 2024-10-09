@@ -1,0 +1,53 @@
+body{
+    background-color: burlywood;
+}
+
+.fundomenu{
+    background-color: darksalmon;
+
+   
+}
+
+/* .logopeq{
+    width: 10%;
+} */
+
+.banner{
+    width: 100%;
+}
+
+.logopeq {
+    max-height: 70px; /* Ajuste a altura do logo conforme necessário */
+    width: auto; /* Para manter a proporção do logo */
+}
+
+.navbar-toggler {
+    border: none; /* Remove a borda do botão */
+}
+
+/* Para garantir que o menu drop-down abra corretamente */
+.dropdown-menu {
+    right: 0; /* Alinha o menu à direita do botão */
+}
+
+/* Para adicionar espaçamento aos itens do menu no mobile */
+.navbar-nav .nav-link {
+    padding: 10px 15px; /* Ajuste os valores conforme necessário */
+}
+
+/* Espaçamento específico para o menu dropdown */
+.dropdown-menu {
+    padding: 10px 0; /* Adiciona espaço acima e abaixo dos itens do dropdown */
+}
+
+/* Adiciona um espaçamento entre os itens do menu */
+.dropdown-item {
+    padding: 8px 15px; /* Ajuste os valores conforme necessário */
+}
+
+/* Para telas pequenas */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: right; /* Alinha os itens do menu à direita */
+    }
+}
