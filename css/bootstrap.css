@@ -4610,7 +4610,7 @@ textarea.form-control-lg {
 }
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
-  background-color: var(--bs-accordion-active-bg);
+  background-color: #3DDBD1;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 .accordion-button:not(.collapsed)::after {
@@ -4639,7 +4639,7 @@ textarea.form-control-lg {
 .accordion-button:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+  
 }
 
 .accordion-header {
@@ -4957,7 +4957,7 @@ textarea.form-control-lg {
 }
 .progress,
 .progress-stacked {
-  --bs-progress-height: 1rem;
+  --bs-progress-height: 2.5rem;
   --bs-progress-font-size: 0.75rem;
   --bs-progress-bg: var(--bs-secondary-bg);
   --bs-progress-border-radius: var(--bs-border-radius);

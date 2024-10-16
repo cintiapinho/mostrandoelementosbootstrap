@@ -1,9 +1,9 @@
 body{
-    background-color: burlywood;
+    background-color: #4DFAE0;
 }
 
 .fundomenu{
-    background-color: darksalmon;
+    background-color: #3DDBD1;
 
    
 }
@@ -45,6 +45,22 @@ body{
     padding: 8px 15px; /* Ajuste os valores conforme necessário */
 }
 
+section{
+    margin-bottom: 1.5%;
+}
+h1{
+    text-align: center;
+}
+
+.espaco{
+margin-top: 1%;
+}
+
+footer{
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
 /* Para telas pequenas */
 @media (max-width: 768px) {
     .navbar-nav {
